@@ -74,3 +74,93 @@ span {
     text-align: center;
     font-size: 73px;
 }
+
+@media only screen  and (max-width:425px){
+    .chess-bord>div {
+        font-size: 35px;
+        width: 45px;
+        height: 45px;
+    }
+    span{
+
+    }
+    .child-container-2{
+
+    }
+    
+.child-container-1{
+
+}
+
+.chess-bord{
+    border: 6px solid gray;
+    border-radius: 5px;
+}
+.container{
+    margin: 0px;
+    padding: 30px 24px;
+}
+
+
+}
+
+@media only screen  and (max-width:375px){
+    .container{
+        margin: 0px;
+        padding: 30px 27px;
+    }
+    .chess-bord>div {
+        font-size: 25px;
+        width: 38px;
+        height: 38px;
+    }
+    span{
+
+    }
+    .child-container-2{
+
+    }
+    
+.child-container-1{
+
+}
+
+.chess-bord{
+    border: 6px solid gray;
+    border-radius: 5px;
+}
+}
+
+
+
+
+
+
+
+
+@media only screen  and (max-width:320px){
+    .container{
+        margin: 0px;
+        padding: 30px 56px
+    }
+    .chess-bord>div {
+        font-size: 18px;
+        width: 25px;
+        height: 25px;
+    }
+    span{
+
+    }
+    .child-container-2{
+
+    }
+    
+.child-container-1{
+
+}
+
+.chess-bord{
+    border: 2px solid gray;
+    border-radius: 3px
+}
+}
