@@ -1,0 +1,71 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    justify-content: center;
+    padding: 50px 224px;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.chess-bord {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 12px solid gray;
+    border-radius: 13px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.child-container-1 {
+    background-color: white;
+    width: 106px;
+    height: 100px;
+}
+
+.child-container-2 {
+    background-color: black;
+    width: 108px;
+    height: 100px;
+}
+
+/* .top-box{
+border-top: 5px solid brown ;
+}
+
+.bottom-box{
+    border-bottom: 5px solid brown ;
+}
+
+.left-box{
+    border-left: 5px solid brown ;
+} 
+
+.right-box{
+    border-right: 5px solid brown ;
+} 
+
+.box-radius-one{
+border-top-left-radius: 15px;
+}
+
+.box-radius-two{
+    border-top-right-radius: 15px;
+}
+
+.box-radius-three{
+    border-bottom-left-radius: 15px;
+}
+
+.box-radius-four{
+    border-bottom-right-radius: 15px;
+} */
+
+span {
+    text-shadow: 2px 1px white;
+}
+
+.chess-bord>div {
+    text-align: center;
+    font-size: 73px;
+}
